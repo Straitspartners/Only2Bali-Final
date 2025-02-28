@@ -246,9 +246,9 @@ const Login = () => {
                 </div>
               </div>
               
-              <p className="signin-text">
-                Forget password? <a href="/forgotpassword">Reset</a>
-              </p>
+              <div className='signin-div'>
+              <p className="signin-text">Forget password? <button onClick={Forgetpassword}>Reset</button></p>
+              </div>
             </form>
           </div>
         </div>
