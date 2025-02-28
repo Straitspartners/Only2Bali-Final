@@ -59,7 +59,7 @@ FRONTEND_URL = 'http://localhost:3000'  # Frontend URL for the reset page
 
 TWILIO_PHONE_NUMBER='+1 915 277 6125'
 
-ALLOWED_HOSTS = [ 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = [ 'localhost', '127.0.0.1' , 'https://happy-dune-02aab6b00.6.azurestaticapps.net']
 
 
 # Application definition
