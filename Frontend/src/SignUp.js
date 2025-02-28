@@ -110,7 +110,10 @@ const Signup = () => {
             <input type="password" placeholder="Confirm Password" className="input-field" value={password_confirmation} required onChange={(e) => setConfirmPassword(e.target.value)} />
             <input type="email" placeholder="Email" className="input-field" value={email} required onChange={(e) => setEmail(e.target.value)} />
             <button type="submit" className="signup-btn">Get OTP</button>
-           <p className="signin-text">Already have an account? <button onClick={Handlesignin}>Sign In</button></p>
+           <div className='signin-div'>
+            <p className="signin-text">Already have an account? <button onClick={Handlesignin}>Sign In</button></p>
+            </div>
+          </div>
           </div>
         </div>
       </form>
