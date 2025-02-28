@@ -114,7 +114,8 @@ CORS_ALLOWED_ORIGINS = [
     # "http://103.197.112.7:8000" ,
     # "http://192.168.1.14:8000",
       "http://127.0.0.1:8000", # React app running on another laptop
-    #   "http://localhost:3000",
+      "http://localhost:3000",
+      "https://happy-dune-02aab6b00.6.azurestaticapps.net"
     #   "http://192.168.1.14:3000",
 ]
 CORS_ALLOW_HEADERS = [
