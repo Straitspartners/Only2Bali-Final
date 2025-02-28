@@ -25,7 +25,7 @@ const Signup = () => {
     if (formRef.current.checkValidity()) {
       const userData = { mobile_number, username, password, dob, gender, password_confirmation, email };
 
-      axios.post('http://192.168.31.111:8000/api/users/register/', userData)
+      axios.post('https://happy-dune-02aab6b00.6.azurestaticapps.net/register/', userData)
         .then(response => {
           setMessage('Registration successful. Please verify your OTP.');
           setError('');
