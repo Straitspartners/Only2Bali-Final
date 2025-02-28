@@ -269,9 +269,9 @@ const ItineraryPage2 = () => {
             <tr>
               <th class="footer-table-tr1">Only 2 Bali</th>
               <th class="footer-table-tr2">
-                <img src={facebook} className="social-icon"/ alt="Facebook">
-                <img src={instagram} className="social-icon"/ alt="Instagram">
-                <img src={linkedin} className="social-icon"/ alt="LinkedIn">
+                <img src={facebook} className="social-icon" alt="Facebook" />
+                <img src={instagram} className="social-icon" alt="Instagram" />
+                <img src={linkedin} className="social-icon" alt="LinkedIn" />
               </th>
             </tr>
           </thead>
