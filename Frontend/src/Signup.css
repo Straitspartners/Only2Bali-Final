@@ -142,7 +142,7 @@ label{
   color: white;
 }
 .signin-text button {
-  color: #0c22e7;
+  color: #0c22e7 !important;
   text-decoration: underline;
   background-color: transparent;
 }
