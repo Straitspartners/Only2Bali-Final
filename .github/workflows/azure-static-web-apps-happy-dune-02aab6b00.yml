@@ -27,6 +27,10 @@ jobs:
         with:
           node-version: '20.x'
 
+      # Set CI environment variable to false
+      - name: Set CI to false
+        run: echo "CI=false" >> $GITHUB_ENV
+
       # Install dependencies
       - name: Install dependencies
         working-directory: ./Frontend  # Specify the correct directory where package.json is located
