@@ -111,7 +111,7 @@ const Signup = () => {
             <input type="email" placeholder="Email" className="input-field" value={email} required onChange={(e) => setEmail(e.target.value)} />
             <button type="submit" className="signup-btn">Get OTP</button>
            <div className='signin-div'>
-            <p className="signin-text">Already have an account? <button onClick={Handlesignin}>Sign In</button></p>
+            <p className="signin-text">Already have an account? <button onClick={Handlesignin}>Sign In</button></p></div>
             </div>
           </div>
           </div>
