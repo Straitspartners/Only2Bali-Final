@@ -21,7 +21,7 @@ MIDDLEWARE=[
 ]
 
 
-CORS_ALLOWED_ORIGINS=[]
+CORS_ALLOWED_ORIGINS=['https://happy-dune-02aab6b00.6.azurestaticapps.net']
 
 #DJANGO VERSION 4.2
 STORAGES={
