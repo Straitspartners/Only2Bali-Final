@@ -14,10 +14,10 @@ const ItineraryCard = ({ itinerary }) => {
     <div className="itinerary-card">
      
       <div className="itinerary-info">
-        <p className="info-p"><img alt={date}  className="it-icon" src={iticon2 }></img> From Date: {itinerary.traveldetails__from_date}</p>
-        <p className="info-p"><img alt={to_date}  className="it-icon" src={iticon2 }></img>  To Date:{itinerary.traveldetails__to_date}</p>
-        <p className="info-p"> <img alt={type} className="it-icon1" src={iticon1 }></img> Crew Type: {itinerary.crew_type_display}</p>
-        <p className="info-p"><img alt={travek}  className="it-icon" src={iticon3 }></img> Airport ➝ {itinerary.traveldetails__international_airport} </p>
+        <p className="info-p"><img alt="date"  className="it-icon" src={iticon2 }></img> From Date: {itinerary.traveldetails__from_date}</p>
+        <p className="info-p"><img alt="to_date"  className="it-icon" src={iticon2 }></img>  To Date:{itinerary.traveldetails__to_date}</p>
+        <p className="info-p"> <img alt="type" className="it-icon1" src={iticon1 }></img> Crew Type: {itinerary.crew_type_display}</p>
+        <p className="info-p"><img alt="travek"  className="it-icon" src={iticon3 }></img> Airport ➝ {itinerary.traveldetails__international_airport} </p>
       </div>
       <div className="see-more">
       <Link to={`/AllItineraryPages?from_date=${itinerary.traveldetails__from_date}&to_date=${itinerary.traveldetails__to_date}&international_airport=${itinerary.traveldetails__international_airport}&crew_type=${itinerary.crew_type_display}`}>
@@ -71,7 +71,7 @@ const ItineraryDate = () => {
 
   return (
     <div className="itinerary-container">
-       <div ><img className="it-hero" src={ithero1} alt={it-hero} ></img> </div>
+       <div ><img className="it-hero" src={ithero1} alt="it-hero" ></img> </div>
       <h2 className="section-title">Upcoming Itinerary</h2>
       <div className="itinerary-section">
         {futureItineraries.length === 0 ? (
@@ -106,9 +106,9 @@ const ItineraryDate = () => {
             <tr>
               <th class="footer-table-tr1">Only 2 Bali</th>
               <th class="footer-table-tr2">
-                <img alt={fb} src={facebook} className="social-icon"/>
-                <img alt={fb}  src={instagram} className="social-icon" />
-                <img alt={fb} src={linkedin} className="social-icon"/>
+                <img alt="fb" src={facebook} className="social-icon"/>
+                <img alt="fb"  src={instagram} className="social-icon" />
+                <img alt="fb" src={linkedin} className="social-icon"/>
               </th>
             </tr>
           </thead>
