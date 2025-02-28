@@ -15,7 +15,7 @@ const ItineraryCard = ({ itinerary }) => {
      
       <div className="itinerary-info">
         <p className="info-p"><img alt={date}  className="it-icon" src={iticon2 }></img> From Date: {itinerary.traveldetails__from_date}</p>
-        <p className="info-p"> <img alt={to date}  className="it-icon" src={iticon2 }></img>  To Date:{itinerary.traveldetails__to_date}</p>
+        <p className="info-p"><img alt={todate}  className="it-icon" src={iticon2 }></img>  To Date:{itinerary.traveldetails__to_date}</p>
         <p className="info-p"> <img alt={type} className="it-icon1" src={iticon1 }></img> Crew Type: {itinerary.crew_type_display}</p>
         <p className="info-p"><img alt={travek}  className="it-icon" src={iticon3 }></img> Airport ➝ {itinerary.traveldetails__international_airport} </p>
       </div>
