@@ -107,7 +107,7 @@ const ItineraryDate = () => {
               <th class="footer-table-tr1">Only 2 Bali</th>
               <th class="footer-table-tr2">
                 <img alt={fb} src={facebook} className="social-icon"/>
-                <imgalt={fb}  src={instagram} className="social-icon" />
+                <img alt={fb}  src={instagram} className="social-icon" />
                 <img alt={fb} src={linkedin} className="social-icon"/>
               </th>
             </tr>
