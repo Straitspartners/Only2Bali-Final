@@ -1,73 +1,3 @@
-// import React from "react";
-// import "./Itinerarydate.css";
-// import facebook from "./Asset/facebook.png";
-// import instagram from "./Asset/instagram.png";
-// import linkedin from "./Asset/linkedin.png";
-// import { Button } from "react-bootstrap";
-
-
-// const ItineraryCard = ({ title }) => {
-//   return (
-//     <div className="itinerary-card">
-//       <div className="itinerary-header"> Airport ➝ CGK - DPS with Airlines</div>
-//       <div className="itinerary-info">
-//         <p>👥 Crew Type: Married Couple</p>
-//         <p>📅 From Date: January 10</p>
-//         <p>📅 To Date: January 20</p>
-//       </div>
-//       <Button className="see-more">See More →</Button>
-//     </div>
-//   );
-// };
-
-// const ItineraryDate = () => {
-//   return (
-//     <div className="itinerary-container">
-//      <div className="itinerary-div">
-//       <h2 className="section-title">Upcoming Itinerary</h2>
-//       <div className="itinerary-section">
-//         <ItineraryCard />
-//         <ItineraryCard />
-//         <ItineraryCard />
-//       </div>
-//       <h2 className="section-title">Present Itinerary</h2>
-//       <div className="itinerary-section">
-//         <ItineraryCard />
-//         <ItineraryCard />
-//         <ItineraryCard />
-//       </div>
-//       <h2 className="section-title">Past Itinerary</h2>
-//       <div className="itinerary-section">
-//         <ItineraryCard />
-//         <ItineraryCard />
-//         <ItineraryCard />
-//       </div>
-//       <div className="Get-Started-footer">
-//         <table class="footer-table">
-//           <thead>
-//             <tr>
-//               <th class="footer-table-tr1">Only 2 Bali</th>
-//               <th class="footer-table-tr2">
-//                 <img alt={facebook} src={facebook} />
-//                 <img alt={insta} src={instagram} />
-//                 <img alt={Linkedin}  src={linkedin} />
-//               </th>
-//             </tr>
-//           </thead>
-//           <tbody>
-//             <tr>
-//               <td>Copyright ©2024 Only2Bali. All Rights Reserved</td>
-//               <td></td>
-//             </tr>
-//           </tbody>
-//         </table>
-//       </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default ItineraryDate;
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./Itinerarydate.css";
@@ -84,9 +14,6 @@ const ItineraryCard = ({ itinerary }) => {
     <div className="itinerary-card">
      
       <div className="itinerary-info">
-      
-       
-       
         <p className="info-p"><img alt={date}  className="it-icon" src={iticon2 }></img> From Date: {itinerary.traveldetails__from_date}</p>
         <p className="info-p"> <img alt={to date}  className="it-icon" src={iticon2 }></img>  To Date:{itinerary.traveldetails__to_date}</p>
         <p className="info-p"> <img alt={type} className="it-icon1" src={iticon1 }></img> Crew Type: {itinerary.crew_type_display}</p>
