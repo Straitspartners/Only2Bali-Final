@@ -113,8 +113,6 @@ const Signup = () => {
            <div className='signin-div'>
             <p className="signin-text">Already have an account? <button onClick={Handlesignin}>Sign In</button></p></div>
             </div>
-          </div>
-          </div>
         </div>
       </form>
 
