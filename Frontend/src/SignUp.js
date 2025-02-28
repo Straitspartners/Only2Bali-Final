@@ -25,7 +25,7 @@ const Signup = () => {
     if (formRef.current.checkValidity()) {
       const userData = { mobile_number, username, password, dob, gender, password_confirmation, email };
 
-      axios.post('https://happy-dune-02aab6b00.6.azurestaticapps.net/register/', userData, {
+      axios.post('https://django-python-web-app-bnb4akd0b8e6aeh6.centralindia-01.azurewebsites.net/api/users/register/', userData, {
         headers: {
           'Content-Type': 'application/json'
         }
