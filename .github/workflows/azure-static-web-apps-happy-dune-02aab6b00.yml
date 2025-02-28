@@ -29,6 +29,7 @@ jobs:
 
       # Install dependencies
       - name: Install dependencies
+        working-directory: ./Frontend  # Specify the correct directory where package.json is located
         run: npm install
 
       # Build the app
